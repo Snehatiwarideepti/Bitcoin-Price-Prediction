@@ -1,0 +1,29 @@
+{
+    "total_records": 4944,
+    "train_records": 3955,
+    "test_records": 989,
+    "rmse": 2493.31,
+    "mae": 1063.51,
+    "r2": 0.9537,
+    "feature_cols": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "prev_close",
+        "ma_7",
+        "daily_return"
+    ],
+    "intercept": 11.205078781721797,
+    "coefficients": {
+        "open": -1.018154156783248,
+        "high": -0.11385266222005205,
+        "low": -0.1314440776457868,
+        "close": 1.081286818814205,
+        "volume": -6.356442363832145e-06,
+        "prev_close": 1.296559854336142,
+        "ma_7": -0.11599236659407483,
+        "daily_return": 42.287911725253544
+    }
+}
